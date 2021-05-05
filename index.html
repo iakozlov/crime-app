@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css?newewwersion"/>
+    <title>Test Server</title>
+    <script src="https://unpkg.com/d3@6.7.0/dist/d3.min.js"></script>
+
+</head>
+<body>
+<div class="alert alert-danger" role="alert" id ="myAlert" style="visibility: hidden">
+    You should enter date of travelling.
+</div>
+<div id="formBody" style="display: flex; justify-content: center;align-items: center;height: 90vh;">
+    <form  method="POST" id=inputForm>
+            <p id="welcome_text">Enter date of your trip</p>
+            <input id="date" type="date">
+             <input type="time" id="appt" name="appt">
+            <input id="message" name="message" value="hello" type="text">
+            <button class="btn btn-success" id = "submit_button" type="submit" style="width: 100px; visibility: visible">Let's travel</button>
+    </form>
+</div>
+<div id="map"></div>
+<div class=”canvas”></div>
+<script src="https://d3js.org/d3.v4.js"></script>
+<div id="my_dataviz"></div>
+<div id="getHistoryBody" style = "display: flex; justify-content: center;align-items: center;height: 800px">
+    <form method="POST" id="getTripsForm">
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-success" type="submit" id="get_trips_button">Get History</button>
+            <input  id = "username" type="text" class="form-control" placeholder="Username" aria-label="Example text with button addon" aria-describedby="button-addon1">
+        </div>
+        <ul class="list-group" id = "list_group">
+        </ul>
+        <input id="tripsMessage" name = "tripsMessage" type="text" style="visibility: hidden">
+    </form>
+</div>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACbUGjdgZDqz4Ug-MkD3zcygTF5weWGE4&callback=initMap&libraries=&v=weekly"
+        async
+></script>
+
+
+
+
+</body>
+<script src="main.js?newverrsion"></script>
+</html>
