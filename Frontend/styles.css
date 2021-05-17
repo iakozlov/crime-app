@@ -1,0 +1,101 @@
+#map{
+    height: 500px;
+    width: 70%;
+    margin-left: 250px;
+    margin-top: -560px;
+}
+#myAlert{
+    width: 100%;
+}
+#infoModal{
+    width: 50%;
+    margin-left: 30%
+}
+#crimeModal{
+    width: 60%;
+    margin-left: 30%;
+}
+.modal-content{
+    font-size: 14px;
+}
+p{
+    margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.footer {
+
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: cornflowerblue;
+     color: white;
+     text-align: center;
+ }
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+#username{
+    flex-wrap: nowrap;
+}
+.alert-danger{
+    margin: 0px 0px -20px 0px;
+}
+#inputForm{
+    margin: -600px auto 0px;
+}
+#appt{
+    margin-left: -50px;
+    margin-right: -60px;
+}
+#submit_button{
+    margin-left: -100px;
+}
+#my_dataviz{
+    margin-left: 650px;
+}
+#getTripsForm{
+    margin: -595px auto 0px;
+}
+#usernameForTrips{
+    width: 30%;
+    height: 30px;
+    display: inline;
+}
+#date_input{
+    display: inline;
+}
+#welcome_text{
+    margin: 20px 50px 20px 20px;
+    font-family: "Arial Black";
+    font-size: 20px;
+    color: cornflowerblue;
+}
+#date{
+    margin: 20px 50px 20px 20px;
+}
+#list_group{
+    position: absolute;
+    margin-top: 10px;
+    left: 500px;
+}

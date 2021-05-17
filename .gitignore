@@ -1,0 +1,4 @@
+.idea
+Backend/model.joblib
+Backend/district_model.joblib
+Backend/columns.txt
